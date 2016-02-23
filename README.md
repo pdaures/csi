@@ -24,6 +24,5 @@ This webapps displays a simple page : accountOverview.html with 2 informtions in
 - first name
 - last name
 
-And that's it !
-
-#Architecture
+#Technology stack
+- Java 7 + Servlet 2.5 + Spring MVC + Spring JdbcTemplate + H2 in memory DB
