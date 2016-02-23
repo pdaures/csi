@@ -12,14 +12,11 @@ Required :
 - a valid internet connexion
 
 Start the webapp :
-
-mvn tomcat:run
+`mvn tomcat:run`
 
 Pages to visit:
 
 http://localhost:8080/csi/accountOverview.htm?token=token_obama
-
 http://localhost:8080/csi/accountOverview.htm?token=token_amerkel
-
 http://localhost:8080/csi/accountOverview.htm?token=token_dcameron
 
