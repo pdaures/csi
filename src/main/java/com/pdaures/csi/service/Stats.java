@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 @Service(value="stats")
 public class Stats {
 	
-	private static final Logger LOGGER = LoggerFactory.getLogger(Metrics.class);
+	private static final Logger LOGGER = LoggerFactory.getLogger(Stats.class);
 
 	//Counter format : <metric_key,value>
 	private Map<String, Long> counters;

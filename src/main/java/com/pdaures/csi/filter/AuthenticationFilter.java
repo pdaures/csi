@@ -31,6 +31,7 @@ public class AuthenticationFilter implements Filter {
 
 	private AuthenticationService service;
 
+	//Current request's security token
 	private String securityToken;
 
 	public void init(FilterConfig filterConfig) throws ServletException {

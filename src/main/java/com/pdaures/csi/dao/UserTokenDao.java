@@ -6,6 +6,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 
 import com.pdaures.csi.da.DataSourceProvider;
+import java.util.List;
 
 /**
  * Dao to access to table USERS_TOKENS
@@ -22,7 +23,11 @@ public class UserTokenDao implements InitializingBean {
 	private JdbcTemplate jdbcTemplate;
     
     public String getUserFromToken(String token){
-    	return this.jdbcTemplate.queryForObject("SELECT USER_ID FROM USER_TOKENS WHERE TOKEN ="+token, String.class);
+    	List<String> users = this.jdbcTemplate.queryForList("SELECT USER_ID FROM USER_TOKENS WHERE TOKEN ='"+token+"';", String.class);
+    	if(users.isEmpty()){
+    		return null;
+    	}
+    	return users.get(0);
     }
 
 	public void afterPropertiesSet() throws Exception {

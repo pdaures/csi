@@ -25,6 +25,7 @@ public class FilterUtils {
 		if(iterator.hasNext()){
 			return iterator.next();
 		}
+		LOG.error("No bean of type "+type+" found");
 		return null;
 	}
 
