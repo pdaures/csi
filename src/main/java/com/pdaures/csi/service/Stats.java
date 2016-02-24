@@ -1,8 +1,8 @@
 package com.pdaures.csi.service;
 
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.Map;
+import java.util.Collections;
 import java.util.Set;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,8 +25,8 @@ public class Stats {
 
 
 	public Stats(){
-		this.counters = new HashMap<String, Long>();
-		this.visitors = new HashSet<Key>();
+		this.counters = new ConcurrentHashMap<String, Long>();
+		this.visitors = Collections.newSetFromMap(new ConcurrentHashMap<Key,Boolean>());
 	}
 
 	public void incrementCountryCounter(String country){
