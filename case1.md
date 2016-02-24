@@ -11,6 +11,8 @@ URL to test : http://localhost
 UserId : fhollande
 
 Logs :
+
+
 `[24/02/16 10:09:55.166] INFO  [tp-8080-1] [AccountOverviewController] - Display account overview of user bobama
 [24/02/16 10:09:55.166] INFO  [tp-8080-1] [AccountServiceImpl] - Loading account information for user bobama
 [24/02/16 10:09:55.166] INFO  [tp-8080-1] [Stats] - Country counter : USA: 4
