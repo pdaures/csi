@@ -58,8 +58,7 @@ java.lang.NullPointerException
 	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
 	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
-	at java.lang.Thread.run(Thread.java:744)
-```
+	at java.lang.Thread.run(Thread.java:744)```
 
 
 Find the problem and propose a solution.
