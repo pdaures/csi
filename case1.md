@@ -13,7 +13,7 @@ UserId : fhollande
 Logs :
 
 
-`[24/02/16 10:09:55.166] INFO  [tp-8080-1] [AccountOverviewController] - Display account overview of user bobama
+```[24/02/16 10:09:55.166] INFO  [tp-8080-1] [AccountOverviewController] - Display account overview of user bobama
 [24/02/16 10:09:55.166] INFO  [tp-8080-1] [AccountServiceImpl] - Loading account information for user bobama
 [24/02/16 10:09:55.166] INFO  [tp-8080-1] [Stats] - Country counter : USA: 4
 [24/02/16 10:09:55.166] INFO  [tp-8080-1] [Stats] - Daily visitors :4
@@ -59,7 +59,7 @@ java.lang.NullPointerException
 	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
 	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
 	at java.lang.Thread.run(Thread.java:744)
-`
+```
 
 
 Find the problem and propose a solution.
