@@ -1,4 +1,4 @@
-#Case 3 : Somebody else's account
+#Case 4 : Somebody else's account
 
 #Victim interview:
 From time to time, I see the account of somebody else. I access to localhost:8080/csi/accountOverview.htm?token=token_castro and see the account of Juha Sipila. I hope nobody see my own account !
