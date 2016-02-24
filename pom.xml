@@ -66,6 +66,11 @@
 			<artifactId>h2</artifactId>
 			<version>1.4.191</version>
 		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>org.slf4j</artifactId>
+			<version>1.7.16</version>
+		</dependency>
 	</dependencies>
 
 </project>
