@@ -4,6 +4,7 @@
 USER_TOKENS :
 - TOKEN CHAR(255) Primary Key : *security token from http request to identify a user*
 - USER_ID CHAR(255) NOT NULL *client userId*
+
 USERS :
 - USER_ID CHAR(255) Primary Key *client's userId*
 - FIRST_NAME CHAR(255) NOT NULL *client's first name*
