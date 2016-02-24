@@ -16,8 +16,8 @@ Start the webapp :
 
 Pages to visit:
 - http://localhost:8080/csi/accountOverview.htm?token=token_obama
-- http://localhost:8080/csi/accountOverview.htm?token=token_amerkel
-- http://localhost:8080/csi/accountOverview.htm?token=token_dcameron
+- http://localhost:8080/csi/accountOverview.htm?token=token_merkel
+- http://localhost:8080/csi/accountOverview.htm?token=token_cameron
 
 #What is the webapp supposed to do
 This webapps displays a simple page : accountOverview.html with 2 informtions inside :
