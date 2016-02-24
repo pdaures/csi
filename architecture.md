@@ -30,14 +30,14 @@
 
 
 #Request processing
-**Step 1: Authentify the request**
+- **Step 1: Authentify the request**
 - AuthenticationFilter -> (token) -> AuthenticationServiceImpl -> (token) -> UserTokenDao -> DB:USER_TOKENS
 - <--------------------------------------userId--------------------------------------
-**Step 2: Load the Account details**
+- **Step 2: Load the Account details**
 - AccountOverviewController -> (userId) -> AccountServiceImpl -> (userId) -> AccountDao -> DB:USERS
 - <--------------------------------------Account-------------------------------------
-**Step 3: Increment stats**
+- **Step 3: Increment stats**
 - AccountServiceImpl -> (userId) -> Stats
 - AccountServiceImpl -> (account.country) -> Stats
-**Step 4 : Return view**
+- **Step 4 : Return view**
 - AccountOverviewController -> (firstName,lastName) -> accountOverview.jsp
