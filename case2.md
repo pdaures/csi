@@ -7,9 +7,7 @@ It was working around 11:00, but the service has been down since 11:15
 #Error on the client side:
 - http://localhost:8080/csi/accountOverview.htm?token=token_obama
 <pre>
-
 description The server encountered an internal error () that prevented it from fulfilling this request.
-
 exception
 
 org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT FIRST_NAME, LAST_NAME, COUNTRY FROM USERS WHERE USER_ID='bobama';]; nested exception is org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
