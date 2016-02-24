@@ -1,16 +1,15 @@
 #Case 1: An unexpected error
 
-Customer email:
+#Victim interview
 
-Hello, I cannot access to my account page. I just have a big error when I access to my account page, I cannot use your service.
+I cannot access to my account page. I just have a big error when I access to my account page, I cannot use your service.
 
 
-Evidence:
+#Evidence
 
-URL to test : http://localhost
 UserId : fhollande
 
-Logs :
+*Logs*
 
 <pre>
 [24/02/16 10:09:55.166] INFO  [tp-8080-1] [AccountOverviewController] - Display account overview of user bobama
