@@ -14,7 +14,7 @@
 - AuthenticationFilter : checks the request attributes "token" and load associated user from the table USER_TOKENS.
 
 **Controller :**
-- AccountOverviewController : render the accountOverviewController.jsp
+- AccountOverviewController : render the accountOverview.jsp
 
 **Services:**
 - AuthenticationServiceImpl : get a userId from a security token
@@ -30,3 +30,14 @@
 
 
 #Request processing
+**Step 1: Authentify the request**
+- AuthenticationFilter -> (token) -> AuthenticationServiceImpl -> (token) -> UserTokenDao -> DB:USER_TOKENS
+- <--------------------------------------userId--------------------------------------
+**Step 2: Load the Account details**
+- AccountOverviewController -> (userId) -> AccountServiceImpl -> (userId) -> AccountDao -> DB:USERS
+- <--------------------------------------Account-------------------------------------
+**Step 3: Increment stats**
+- AccountServiceImpl -> (userId) -> Stats
+- AccountServiceImpl -> (account.country) -> Stats
+**Step 4 : Return view**
+- AccountOverviewController -> (firstName,lastName) -> accountOverview.jsp
