@@ -18,4 +18,3 @@ I can assure you we never had this problem, we always validate the system with 3
 [24/02/16 10:54:50.279] INFO  [p-8080-16] [AccountOverviewController] - Display account overview of user rcastro
 [24/02/16 10:54:50.300] INFO  [p-8080-16] [AccountServiceImpl] - Loading account information for user rcastro
 </pre>
-
