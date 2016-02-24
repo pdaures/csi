@@ -1,6 +1,6 @@
 #Architecture
 
-#DB tables
+**DB tables**
 USER_TOKENS :
 - TOKEN CHAR(255) Primary Key : *security token from http request to identify a user*
 - USER_ID CHAR(255) NOT NULL *client userId*
