@@ -9,7 +9,6 @@ It was working around 11:00, but the service has been down since 11:15
 <pre>
 description The server encountered an internal error () that prevented it from fulfilling this request.
 exception
-
 org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT FIRST_NAME, LAST_NAME, COUNTRY FROM USERS WHERE USER_ID='bobama';]; nested exception is org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
 SELECT FIRST_NAME, LAST_NAME, COUNTRY FROM USERS WHERE USER_ID='bobama'; [42102-191]
 	org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:927)
@@ -19,7 +18,6 @@ SELECT FIRST_NAME, LAST_NAME, COUNTRY FROM USERS WHERE USER_ID='bobama'; [42102-
 	javax.servlet.http.HttpServlet.service(HttpServlet.java:717)
 	com.pdaures.csi.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:60)
 root cause
-
 org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT FIRST_NAME, LAST_NAME, COUNTRY FROM USERS WHERE USER_ID='bobama';]; nested exception is org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
 SELECT FIRST_NAME, LAST_NAME, COUNTRY FROM USERS WHERE USER_ID='bobama'; [42102-191]
 	org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:233)
