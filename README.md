@@ -1,8 +1,8 @@
 # csi
-Case for SPIA team member interview
+SPIA team member interview exercise
 
 #General goal
-This webapp has several problems. Your goal is to find them using the evidence provided, and propose a set of fixes.
+This webapp has several problems. Your goal is to find them using the evidence provided, and propose a set of solutions.
 
 #How to start
 Required :
@@ -27,8 +27,8 @@ This webapps displays a simple page : accountOverview.html with 2 informtions in
 #Technology stack
 - Java 7 + Servlet 2.5 + Spring MVC + Spring JdbcTemplate + H2 in memory DB
 
-#Code architecture
-- [case 1](https://github.com/pdaures/csi/blob/master/architecture.md)
+#Webapp architecture
+- [Architecture](https://github.com/pdaures/csi/blob/master/architecture.md)
 
 #Investigation cases
 - [case 1](https://github.com/pdaures/csi/blob/master/case1.md)
