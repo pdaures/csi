@@ -1,4 +1,4 @@
-#Case 2 : A DBA nightmare
+#Case 3 : A DBA nightmare
 
 #Victim interview:
 Since this morning, no customer can access their accounts anymore. All clients have the same error.
