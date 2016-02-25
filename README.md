@@ -1,5 +1,4 @@
-# csi
-SPIA team member interview exercise
+# SPIA team member interview exercise
 
 #General goal
 This webapp has several problems. Your goal is to find them using the evidence provided, and propose a set of solutions.
