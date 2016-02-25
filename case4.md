@@ -43,11 +43,11 @@ java.lang.OutOfMemoryError: Java heap space
 </pre>
 
 #RAM content :
-char[] : 16.1%
-java.util.concurrent.ConcurrentHashMap$Segment[] : 9.3%
-java.util.Hashtable$Entry[] : 8.4%
-java.util.concurrent.ConcurrentHashMap$HashEntry : 6.7%
-java.lang.String : 6.3%
-java-util.concurrent.ConcurrentHashMap : 6.1%
-com.pdaures.csi.service.Stats$Key : 4%
+- char[] : 16.1%
+- java.util.concurrent.ConcurrentHashMap$Segment[] : 9.3%
+- java.util.Hashtable$Entry[] : 8.4%
+- java.util.concurrent.ConcurrentHashMap$HashEntry : 6.7%
+- java.lang.String : 6.3%
+- java-util.concurrent.ConcurrentHashMap : 6.1%
+- com.pdaures.csi.service.Stats$Key : 4%
 
