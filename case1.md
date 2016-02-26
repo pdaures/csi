@@ -9,6 +9,10 @@ I cannot access to my account page. I just have a big error when I access to my 
 
 UserId : fhollande
 
+Token : token_hollande
+
+http://localhost:8080/csi/accountOverview.htm?token=token_hollande
+
 <pre>
 [24/02/16 10:09:55.166] INFO  [tp-8080-1] [AccountOverviewController] - Display account overview of user bobama
 [24/02/16 10:09:55.166] INFO  [tp-8080-1] [AccountServiceImpl] - Loading account information for user bobama
