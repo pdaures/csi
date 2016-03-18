@@ -19,9 +19,17 @@ Pages to visit:
 - http://localhost:8080/csi/accountOverview.htm?token=token_cameron
 
 #What is the webapp supposed to do
-This webapps displays a simple page : accountOverview.html with 2 informtions inside :
+A user can access his account and see 2 informations :
 - first name
 - last name
+- Example for user Barack Obama : http://localhost:8080/csi/accountOverview.htm?token=token_obama
+- Example for user Angela Merkel :http://localhost:8080/csi/accountOverview.htm?token=token_merkel
+ 
+
+The application keeps some metrics about user activity:
+- One counter of access by Country.
+- One counter of unique visitor.
+- See class com.pdaures.csi.service.Stats
 
 #Technology stack
 - Java 7 + Servlet 2.5 + Spring MVC + Spring JdbcTemplate + H2 in memory DB
