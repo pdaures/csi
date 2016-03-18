@@ -27,8 +27,8 @@ A user can access his account and see 2 informations :
  
 
 The application keeps some metrics about user activity:
-- One counter of access by Country.
-- One counter of unique visitor.
+- One counter of access by Country. Example : if Merkel accesses to her account, then there will be a counter with Germany : 1. If Obama accesses to his account, there will be USA :1, Germany :1
+- One counter of unique visitor. Example : if Merkel accesses to her account once or 20 times, there will be "unique visitor count : 1".
 - See class com.pdaures.csi.service.Stats
 
 #Technology stack
