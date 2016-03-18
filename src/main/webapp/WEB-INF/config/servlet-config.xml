@@ -12,29 +12,6 @@
 		
 	<context:component-scan base-package="com.pdaures.csi"/>
 	
-<!-- 	<bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver"> -->
-<!-- 		<property name="order" value="1" /> -->
-<!-- 		<property name="contentNegotiationManager"> -->
-<!-- 			<bean class="org.springframework.web.accept.ContentNegotiationManager"> -->
-<!-- 				<constructor-arg> -->
-<!-- 					<bean class="org.springframework.web.accept.PathExtensionContentNegotiationStrategy"> -->
-<!-- 						<constructor-arg> -->
-<!-- 							<map> -->
-<!-- 								<entry key="json" value="application/json" /> -->
-<!-- 								<entry key="xml" value="application/xml" /> -->
-<!-- 							</map> -->
-<!-- 						</constructor-arg> -->
-<!-- 					</bean> -->
-<!-- 				</constructor-arg> -->
-<!-- 			</bean> -->
-<!-- 		</property> -->
-		
-<!-- 		<property name="defaultViews"> -->
-<!-- 			<list> -->
-<!-- 			</list> -->
-<!-- 		</property> -->
-<!-- 	</bean> -->
-	
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" 
 	 p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" p:order="2"/>
 	 	
